@@ -5,7 +5,7 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
 ## Etapas do Projeto
 
 1. **Baixei o arquivo VCF**
-   - Receba o arquivo VCF que contém as variantes genéticas que você deseja analisar.
+   - Recebi o arquivo VCF por email para ser filtrado.
 
 2. **Baixei o ANNOVAR**
    - Visitei a [página de download do ANNOVAR](https://annovar.openbioinformatics.org/en/latest/user-guide/download/) para obter as instruções mais recentes.
@@ -61,13 +61,13 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
 
 
 
-OBS: Os arquivos output do annovar ja foram feitos caso vc queria anotar outro arquivo vcf, vc deve:
+OBS: Os arquivos output do annovar ja foram feitos caso você queria anotar outro arquivo vcf, vc deve:
 1. Garantir que vc tenho pelo menos 50 Gigas de espaco
 2. Clone o repositório:
    git clone <URL_do_seu_repositório>
    cd nome_do_repositorio
-3. substituir o arquivo presente na pasta vcf pelo novo arquivo vcf que vc quer anotar
-4. apagar os arquivos  annotated_variants.hg19_multianno.csv e variants.avinput
-5. baixar a pasta do annovar no mesmo diretorio (seguindo etapa 2)
+3. Substituir o arquivo presente na pasta vcf pelo novo arquivo vcf que vc quer anotar
+4. Deletar os arquivos  annotated_variants.hg19_multianno.csv e variants.avinput
+5. Baixar a pasta do annovar no mesmo diretorio (seguindo etapa 2)
 6. Rodar o docker 
 
