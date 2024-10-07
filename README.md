@@ -1,6 +1,6 @@
 # Bioinformatics Project
 
-Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar por frequencia e DP e baixar os resultados anotados. Abaixo estão as etapas seguidas para realizar o trabalho.
+Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar por frequencia e DP e baixar os resultados anotados. Abaixo estão as etapas seguidas para realizar o trabalho. 
 
 ## Etapas do Projeto
 
@@ -74,4 +74,10 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
    ```bash
    git clone <URL_do_seu_repositório>
    cd nome_do_repositorio
+
+obs: Os arquivos output do annovar ja foram feitos caso vc queria anotar outro arquivo vcf, vc deve:
+1. baixar esses arquivos
+2. substituir o arquivo presente na pasta vcf pelo novo arquivo vcf que vc quer anotar
+3. apagar os arquivos  annotated_variants.hg19_multianno.csv e variants.avinput
+4. baixar a pasta do annovar no mesmo diretorio e ai sim vc pode rodar o docker 
 
