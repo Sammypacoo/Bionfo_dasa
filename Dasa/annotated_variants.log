@@ -1,0 +1,12 @@
+ANNOVAR Version:
+	$Date: 2020-06-07 23:56:37 -0400 (Sun,  7 Jun 2020) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	Dasa/annovar/annotate_variation.pl -filter -dbtype gnomad211_genome -buildver hg19 -outfile Dasa/annotated_variants Dasa/variants.avinput Dasa/annovar/humandb/ -otherinfo
+ANNOVAR Started:
+	Wed Oct  2 16:21:55 2024
+NOTICE: Output file with variants matching filtering criteria is written to Dasa/annotated_variants.hg19_gnomad211_genome_dropped, and output file with other variants is written to Dasa/annotated_variants.hg19_gnomad211_genome_filtered
+NOTICE: Processing next batch with 30009 unique variants in 30009 input lines
+NOTICE: Database index loaded. Total number of bins is 28119985 and the number of bins to be scanned is 24885
+NOTICE: Scanning filter database Dasa/annovar/humandb/hg19_gnomad211_genome.txt...Done
