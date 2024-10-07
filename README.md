@@ -84,6 +84,6 @@ obs: Os arquivos output do annovar ja foram feitos caso vc queria anotar outro a
    cd nome_do_repositorio
 3. substituir o arquivo presente na pasta vcf pelo novo arquivo vcf que vc quer anotar
 4. apagar os arquivos  annotated_variants.hg19_multianno.csv e variants.avinput
-5. baixar a pasta do annovar no mesmo diretorio (seguindo etapa 1)
+5. baixar a pasta do annovar no mesmo diretorio (seguindo etapa 2)
 6. Rodar o docker 
 
