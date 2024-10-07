@@ -1,6 +1,6 @@
 # Bioinformatics Project
 
-Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar e baixar os resultados anotados. Abaixo estão as etapas seguidas para realizar o trabalho.
+Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar por frequencia e DP e baixar os resultados anotados. Abaixo estão as etapas seguidas para realizar o trabalho.
 
 ## Etapas do Projeto
 
