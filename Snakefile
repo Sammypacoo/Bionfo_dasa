@@ -1,8 +1,8 @@
 # Dasa/Snakefile
 
 # Defina as variáveis do caminho
-annovar_path = "Dasa/annovar"
-input_vcf = "Dasa/vcf/NIST.vcf"
+annovar_path = "./annovar"
+input_vcf = "./vcf/NIST.vcf"
 #output_dir = "Dasa/"
 
 # # Regra principal
