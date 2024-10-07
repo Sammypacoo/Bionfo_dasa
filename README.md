@@ -1,6 +1,6 @@
 # Bioinformatics Project
 
-Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar e baixar os resultados anotados. Abaixo estão as etapas que você seguiu para realizar o trabalho.
+Este projeto envolve a anotação de variantes genéticas a partir de arquivos VCF, utilizando ANNOVAR e um aplicativo em Flask para filtrar e baixar os resultados anotados. Abaixo estão as etapas seguidas para realizar o trabalho.
 
 ## Etapas do Projeto
 
@@ -54,8 +54,11 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
      # Comando padrão para executar a aplicação
      CMD ["python", "app.py"]
      ```
+7. **Apagar a pasta ANNOVAR**
+   - 30G por isso eu apaguei mas ela pode ser encontrada em outro repositorio:
 
-7. **Adicionar ao GitHub**
+     ```
+8. **Adicionar ao GitHub**
    - Após finalizar o projeto, você adicionou todos os arquivos ao repositório do GitHub usando os comandos:
      ```bash
      git init
