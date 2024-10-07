@@ -60,15 +60,23 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
    git clone <URL_do_seu_repositório>
    cd nome_do_repositorio
 
+2. Rodar o Docker 
+```bash
+docker build -t dasa_project_of .
+docker run -p 5000:5000 dasa_project_of
 
 
 OBS: Os arquivos output do annovar ja foram feitos caso você queria anotar outro arquivo vcf, vc deve:
 1. Garantir que vc tenho pelo menos 50 Gigas de espaco
 2. Clone o repositório:
+ ```bash
    git clone <URL_do_seu_repositório>
    cd nome_do_repositorio
 3. Substituir o arquivo presente na pasta vcf pelo novo arquivo vcf que vc quer anotar
 4. Deletar os arquivos  annotated_variants.hg19_multianno.csv e variants.avinput
 5. Baixar a pasta do annovar no mesmo diretorio (seguindo etapa 2)
-6. Rodar o docker 
+6. Rodar o docker
+```bash
+docker build -t dasa_project_of .
+docker run -p 5000:5000 dasa_project_of
 
