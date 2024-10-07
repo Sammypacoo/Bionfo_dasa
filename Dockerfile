@@ -20,4 +20,4 @@ COPY . .
 
 
 # Use o comando para ativar o ambiente e rodar seu aplicativo
-CMD ["bash", "-c", "source activate snake && exec python run.py"]
+CMD ["bash", "-c", "source activate snake && snakemake --snakefile Snakefile --cores 4 && exec python run.py"]
