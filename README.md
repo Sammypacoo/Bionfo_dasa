@@ -40,8 +40,7 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
      
 7. **Apaguei a pasta ANNOVAR**
    - 30G por isso eu deletei , seguir a etapa 2 para baixar o programa
-
-     ```
+     
 8. **Adicionei ao GitHub**
    - Após finalizar o projeto, adicionei todos os arquivos ao repositório do GitHub usando os comandos:
      ```bash
