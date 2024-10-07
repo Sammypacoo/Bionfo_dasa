@@ -79,5 +79,7 @@ OBS: Os arquivos output do annovar ja foram feitos caso você queria anotar outr
 6. Rodar o docker
    ```bash
    docker build -t dasa_project_of .
-   docker run -p 5000:5000 dasa_project_of
+   docker run -p 5004:5000 -v ~/Desktop/Dasa:/Dasa dasa_project_of
+
    ```
+/path/to/your/data pelo caminho de um diretório em seu sistema que tenha espaço suficiente
