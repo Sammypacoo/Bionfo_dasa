@@ -41,8 +41,8 @@ Este projeto envolve a anotação de variantes genéticas a partir de arquivos V
    - Um `Dockerfile` foi criado para empacotar a aplicação, permitindo que ela seja executada em um contêiner Docker
      
 7. **Apaguei a pasta ANNOVAR**
-   - 30G por isso eu deletei , seguir a etapa 2 para baixar o programa, deixei salvo os  arquivos output do programa (annotated_variants.hg19_multianno.csv e variants.avinput)
-     
+   - 30G por isso eu deletei, deixei salvo os  arquivos output do programa (annotated_variants.hg19_multianno.csv e variants.avinput), caso queira acesso ao programa seguir a etapa 2.
+   
 8. **Adicionei ao GitHub**
    - Após finalizar o projeto, adicionei todos os arquivos ao repositório do GitHub usando os comandos:
      ```bash
